@@ -11,7 +11,7 @@ public class PDA
 {
     Scanner scanner = new Scanner(System.in);
     int age;
-    int LOWER_BOUND = 0;
+    int LOWER_BOUND = 14;
     
     /**
      * Constructor for objects of class PDA
@@ -31,7 +31,7 @@ public class PDA
             try {
                 age = scanner.nextInt();
                 if (age < LOWER_BOUND) {
-                    System.out.println(age+" is too young!!");
+                    System.out.println(age + " is too young!!");
                 } else {
                     System.out.println("Computations go here");                
                 }
@@ -48,5 +48,13 @@ public class PDA
     public static void main (String[] args) {
         PDA pda = new PDA();
         pda.runEventLoop();
+    }
+    
+    public int getYoungerAge(int age) {
+        return 1;
+    }
+    
+    public int getOlderAge(int age) {
+        return 1;
     }
 }
