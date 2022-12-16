@@ -51,10 +51,10 @@ public class PDA
     }
     
     public int getYoungerAge(int age) {
-        return 1;
+        return (age/2) + 7;
     }
     
     public int getOlderAge(int age) {
-        return 1;
+        return (age*2) -7;
     }
 }
