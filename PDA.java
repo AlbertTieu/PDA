@@ -65,6 +65,6 @@ public class PDA
     }
     
     public int getOlderAge(int age) {
-        return (age*2) -7;
+        return (age - 7) * 2;
     }
 }
